@@ -147,7 +147,7 @@ At this stage the products are visible to all users.
 
 When a unauthenticated user tries to add an item to subscriptions a Swal message is displayd prompting them to log in.
 
-![thumbnail](./public/Products2.JPG)
+![thumbnail](./public/Products2.jpg)
 
 When logged in the [My suvscriptions] menu item is available along with a thumbnail (if they used google to log in) and some personal info.
 
