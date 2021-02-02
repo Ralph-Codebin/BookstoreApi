@@ -143,11 +143,11 @@ When the app loads for the first time only the [Home] and [Products] menu items 
 
 At this stage the products are visible to all users.
 
-![thumbnail](./public/Products.JPG)
+![thumbnail](./public/Products.jpg)
 
 When a unauthenticated user tries to add an item to subscriptions a Swal message is displayd prompting them to log in.
 
-![thumbnail](./public/Products2.jpg)
+![thumbnail](./public/Products2.JPG)
 
 When logged in the [My suvscriptions] menu item is available along with a thumbnail (if they used google to log in) and some personal info.
 
