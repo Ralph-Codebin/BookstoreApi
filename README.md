@@ -12,11 +12,17 @@ _This app is not complete by a long-shot, this is as basic as it gets. This is a
 
 The business has requested the development of a new system which allows users to register online and purchase a subscription to books listed in the online catalogue. Only a registered user can purchase a subscription to any book available in the product catalogue. A user can unsubscribe to any book a user currently has in their subscription. The system should also allow 3rd party resellers to access the system or parts of the system through an Api over Http which provides the same functionality.
 
+#### Repo URLs
+
+Front-End Application: [https://github.com/Ralph-Codebin/BookstoreFrontEnd](https://github.com/Ralph-Codebin/BookstoreFrontEnd)
+
+Back-End Application: [https://github.com/Ralph-Codebin/BookstoreApi](https://github.com/Ralph-Codebin/BookstoreApi)
+
 #### Architecture
 
 This is a very basic demonstation of a single page Reactjs web app with a powerfull .NET Core API on top of a SQL Database
 
-![thumbnail](../public/pic2.JPG)
+![thumbnail](./public/pic2.jpg)
 
 ### Frontend Stack
 
@@ -48,7 +54,7 @@ The backend is a .NET Core 3.1 Web API with SQL as the database. I also decided 
 
 Onion Architecture is comprised of multiple concentric layers interfacing each other towards the core that represents the domain. The architecture does not depend on the data layer as in classic multi-tier architectures, but on the actual domain models.
 
-![thumbnail](../public/pic1.JPG)
+![thumbnail](./public/pic1.jpg)
 
 *   The application was architected around the clean/onion architecture style.
 *   The Domain and Application form the Application Core.
@@ -84,7 +90,7 @@ Onion Architecture is comprised of multiple concentric layers interfacing each o
 
 *   The REST API is documented using the Swashbuckle toolkit that supports the OpenAPI spec.
 
-![thumbnail](../public/swagger.JPG)
+![thumbnail](./public/Swagger.JPG)
 
 ### Serilog
 
@@ -133,27 +139,27 @@ To get this solution to run, a few steps need to be taken
 #### Demo
 When the app loads for the first time only the [Home] and [Products] menu items are available along with a [Log In] button
 
-![thumbnail](../public/home.JPG)
+![thumbnail](./public/Home.JPG)
 
 At this stage the products are visible to all users.
 
-![thumbnail](../public/products.JPG)
+![thumbnail](./public/Products.JPG)
 
 When a unauthenticated user tries to add an item to subscriptions a Swal message is displayd prompting them to log in.
 
-![thumbnail](../public/products2.JPG)
+![thumbnail](./public/Products2.JPG)
 
 When logged in the [My suvscriptions] menu item is available along with a thumbnail (if they used google to log in) and some personal info.
 
-![thumbnail](../public/products3.JPG)
+![thumbnail](./public/Products3.JPG)
 
 When the user now clicks the add to subscriptions button, they will get a confirmation that the item has been added.
 
-![thumbnail](../public/products4.JPG)
+![thumbnail](./public/Products4.JPG)
 
 On the subscriptions page the user will be able to view the items in their subscription and also has the ability to remove items from said subscription.
 
-![thumbnail](../public/subscriptions.JPG)
+![thumbnail](./public/Subscriptions.JPG)
 
 #### Conclusion
 
